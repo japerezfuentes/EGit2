@@ -34,4 +34,9 @@ public class ColeccionDecimales {
         return mayor;
     }
 
+    public double multiplicar() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
 }
