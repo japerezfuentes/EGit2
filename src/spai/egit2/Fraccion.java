@@ -93,13 +93,20 @@ public class Fraccion {
 	// Metodo multiplicar sin implementar..
 	public void multiplicar(Fraccion frac) {
 		// TODO Auto-generated method stub
+		this.numerador = frac.getNumerador() * this.numerador;
 
+		this.denominador = frac.getDenominador() * this.denominador;
 	}
 
 	// Metodo multiplicar sin implementar..
 	public Fraccion sumar(Fraccion frac) {
 		// TODO Auto-generated method stub
-		return null;
+		this.numerador = (this.numerador * frac.denominador)
+				+ (this.denominador * frac.numerador);
+
+		this.denominador = this.denominador * frac.denominador;
+
+		return this;
 	}
-	
+
 }
