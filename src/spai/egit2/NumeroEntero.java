@@ -33,7 +33,7 @@ public class NumeroEntero {
 
 	public void elevarAlCuadraro() {
 		// TODO Auto-generated method stub
-		
+		this.valor = this.valor * this.valor;
 	}
 
 }
