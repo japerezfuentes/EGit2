@@ -33,10 +33,14 @@ public class ColeccionDecimales {
         }
         return mayor;
     }
-
+    
     public double multiplicar() {
-        // TODO Auto-generated method stub
-        return 0;
-    }
+        double mult = this.coleccion.get(0);
+        this.coleccion.remove(0);
+        for (double item : this.coleccion) {
+                mult *= item;
+        }
+        return mult;
 
+ 		}
 }
