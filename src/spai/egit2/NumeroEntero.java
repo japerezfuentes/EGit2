@@ -31,4 +31,9 @@ public class NumeroEntero {
         this.valor--;
     }
 
+	public void elevarAlCuadraro() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
