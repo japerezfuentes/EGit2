@@ -89,4 +89,17 @@ public class Fraccion {
 		return (this.getNumerador() * fraccion.getDenominador()) == (this
 				.getDenominador() * fraccion.getNumerador());
 	}
+
+	// Metodo multiplicar sin implementar..
+	public void multiplicar(Fraccion frac) {
+		// TODO Auto-generated method stub
+
+	}
+
+	// Metodo multiplicar sin implementar..
+	public Fraccion sumar(Fraccion frac) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }
