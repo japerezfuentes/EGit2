@@ -7,7 +7,7 @@
         <property name="test" location="test" />
         <property name="junit" location="lib/junit-4.10.jar" />
         <property name="testReport" location="testReport" />
-        <property name="name" value="EGit2JJoseAntonioPerez" />
+        <property name="name" value="EGit2JoseAntonioPerez" />
         <property name="version" value="1.0.0" />
         <!-- Se resuelven las dependencias -->
         <path id="classpath.test">
@@ -29,7 +29,7 @@
         </target>
         <!-- Principal... -->
         <target name="test" depends="init, compila" description="Integracion Continua">
-                <echo message="Integracion Continua...EGit2JJoseAntonioPerez" />
+                <echo message="Integracion Continua...EGit2JoseAntonioPerez" />
                 <junit printsummary="on" fork="yes" haltonfailure="true">
                         <classpath refid="classpath.test" />
                         <batchtest fork="yes">
